@@ -82,7 +82,7 @@ const TasksPage: React.FC = () => {
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   return (
-    <div className="container mx-auto p-4 lg:flex lg:flex-col">
+    <div className="container mx-auto p-4 lg:flex lg:flex-col min-h-[88.3vh]">
       <h1 className="text-2xl font-bold mb-4 lg:self-center dark:text-white">Task Management</h1>
       
       <input
